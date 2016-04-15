@@ -1,0 +1,10 @@
+Issue1 : Failed to find target android N
+Soln : 
+changing the compileSdkVersion in the Gradle.build file from 18 to 17
+
+Issue2 : Error Please upgrade JUnit version to at least 4.6
+Soln : Add testCompile 'junit:junit:4.12'
+in dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+}
+
