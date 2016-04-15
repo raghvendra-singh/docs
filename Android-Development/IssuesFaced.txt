@@ -8,4 +8,7 @@ in dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
 }
 
-Issue 3 : 
+Issue 3 : pkg: /data/local/tmp/Failure [INSTALL_FAILED_OLDER_SDK]
+Soln : targetSdkVersion must be lesser than equal to compilerVersion
+
+Issue 4 : 
