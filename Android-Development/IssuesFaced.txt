@@ -11,4 +11,9 @@ in dependencies {
 Issue 3 : pkg: /data/local/tmp/Failure [INSTALL_FAILED_OLDER_SDK]
 Soln : targetSdkVersion must be lesser than equal to compilerVersion
 
-Issue 4 : 
+Issue 4 : bison installation:
+Fix : 
+brew install bison
+brew link bison --force
+
+Issue : Project is using java7 and thrift 9
